@@ -7,3 +7,4 @@ A standout feature of this app is its voice recognition capabilities. Users can 
 
 ![Simulator Screenshot - iPhone 15 Pro - 2024-06-03 at 12 00 55](https://github.com/lipej/clear-my-doubts/assets/80367187/59f06faa-316b-4ddd-b9be-2e9fa800d9e4)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-06-03 at 12 00 16](https://github.com/lipej/clear-my-doubts/assets/80367187/14b13aae-c6a2-478b-a972-d730731ddc66)
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-03 at 12 10 05](https://github.com/lipej/clear-my-doubts/assets/80367187/78858c1b-01de-4ee2-9241-44a738e9989c)
