@@ -6,18 +6,19 @@
 //
 
 import SwiftUI
+import SwiftSpeech
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Home().onAppear {
+            SwiftSpeech.requestSpeechRecognitionAuthorization()
         }
-        .padding()
     }
 }
+    
+    
+
+
 
 #Preview {
     ContentView()

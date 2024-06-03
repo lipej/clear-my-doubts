@@ -14,6 +14,16 @@
 		347035622C06295D007A5ECD /* ClearMyDoubtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347035612C06295D007A5ECD /* ClearMyDoubtsTests.swift */; };
 		3470356C2C06295D007A5ECD /* ClearMyDoubtsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470356B2C06295D007A5ECD /* ClearMyDoubtsUITests.swift */; };
 		3470356E2C06295D007A5ECD /* ClearMyDoubtsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470356D2C06295D007A5ECD /* ClearMyDoubtsUITestsLaunchTests.swift */; };
+		3470357C2C062B53007A5ECD /* SwiftSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = 3470357B2C062B52007A5ECD /* SwiftSpeech */; };
+		3470357F2C0636D2007A5ECD /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 3470357E2C0636D2007A5ECD /* SocketIO */; };
+		347035812C066759007A5ECD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 347035802C066759007A5ECD /* Settings.bundle */; };
+		347035842C06772D007A5ECD /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347035832C06772D007A5ECD /* ChatMessage.swift */; };
+		347035862C067752007A5ECD /* IAResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347035852C067752007A5ECD /* IAResponse.swift */; };
+		3470358A2C06778F007A5ECD /* ChatPersonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347035892C06778F007A5ECD /* ChatPersonType.swift */; };
+		3470358F2C067812007A5ECD /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470358E2C067812007A5ECD /* WebSocket.swift */; };
+		34973F592C0DE11E006779AF /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34973F582C0DE11E006779AF /* Entry.swift */; };
+		34973F602C0DED94006779AF /* ChatHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34973F5F2C0DED94006779AF /* ChatHistory.swift */; };
+		34973F632C0E0DCA006779AF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34973F622C0E0DCA006779AF /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,14 @@
 		347035672C06295D007A5ECD /* ClearMyDoubtsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearMyDoubtsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3470356B2C06295D007A5ECD /* ClearMyDoubtsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearMyDoubtsUITests.swift; sourceTree = "<group>"; };
 		3470356D2C06295D007A5ECD /* ClearMyDoubtsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearMyDoubtsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		347035802C066759007A5ECD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		347035832C06772D007A5ECD /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		347035852C067752007A5ECD /* IAResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAResponse.swift; sourceTree = "<group>"; };
+		347035892C06778F007A5ECD /* ChatPersonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPersonType.swift; sourceTree = "<group>"; };
+		3470358E2C067812007A5ECD /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		34973F582C0DE11E006779AF /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		34973F5F2C0DED94006779AF /* ChatHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHistory.swift; sourceTree = "<group>"; };
+		34973F622C0E0DCA006779AF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3470357C2C062B53007A5ECD /* SwiftSpeech in Frameworks */,
+				3470357F2C0636D2007A5ECD /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,7 @@
 		347035442C06295C007A5ECD = {
 			isa = PBXGroup;
 			children = (
+				347035802C066759007A5ECD /* Settings.bundle */,
 				3470354F2C06295C007A5ECD /* ClearMyDoubts */,
 				347035602C06295D007A5ECD /* ClearMyDoubtsTests */,
 				3470356A2C06295D007A5ECD /* ClearMyDoubtsUITests */,
@@ -94,6 +115,10 @@
 		3470354F2C06295C007A5ECD /* ClearMyDoubts */ = {
 			isa = PBXGroup;
 			children = (
+				34973F612C0DEDB7006779AF /* Views */,
+				34973F5E2C0DED7B006779AF /* ViewModels */,
+				3470358D2C0677EC007A5ECD /* Network */,
+				347035822C06771C007A5ECD /* Models */,
 				347035502C06295C007A5ECD /* ClearMyDoubtsApp.swift */,
 				347035522C06295C007A5ECD /* ContentView.swift */,
 				347035542C06295D007A5ECD /* Assets.xcassets */,
@@ -127,6 +152,49 @@
 			path = ClearMyDoubtsUITests;
 			sourceTree = "<group>";
 		};
+		347035822C06771C007A5ECD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				347035882C06777B007A5ECD /* Enums */,
+				347035832C06772D007A5ECD /* ChatMessage.swift */,
+				347035852C067752007A5ECD /* IAResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		347035882C06777B007A5ECD /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				347035892C06778F007A5ECD /* ChatPersonType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		3470358D2C0677EC007A5ECD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3470358E2C067812007A5ECD /* WebSocket.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		34973F5E2C0DED7B006779AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				34973F5F2C0DED94006779AF /* ChatHistory.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		34973F612C0DEDB7006779AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34973F582C0DE11E006779AF /* Entry.swift */,
+				34973F622C0E0DCA006779AF /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +211,10 @@
 			dependencies = (
 			);
 			name = ClearMyDoubts;
+			packageProductDependencies = (
+				3470357B2C062B52007A5ECD /* SwiftSpeech */,
+				3470357E2C0636D2007A5ECD /* SocketIO */,
+			);
 			productName = ClearMyDoubts;
 			productReference = 3470354D2C06295C007A5ECD /* ClearMyDoubts.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +287,10 @@
 				Base,
 			);
 			mainGroup = 347035442C06295C007A5ECD;
+			packageReferences = (
+				3470357A2C0629B8007A5ECD /* XCRemoteSwiftPackageReference "SwiftSpeech" */,
+				3470357D2C0636D2007A5ECD /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			productRefGroup = 3470354E2C06295C007A5ECD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				347035582C06295D007A5ECD /* Preview Assets.xcassets in Resources */,
+				347035812C066759007A5ECD /* Settings.bundle in Resources */,
 				347035552C06295D007A5ECD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34973F592C0DE11E006779AF /* Entry.swift in Sources */,
+				347035862C067752007A5ECD /* IAResponse.swift in Sources */,
+				347035842C06772D007A5ECD /* ChatMessage.swift in Sources */,
+				34973F602C0DED94006779AF /* ChatHistory.swift in Sources */,
+				34973F632C0E0DCA006779AF /* Home.swift in Sources */,
+				3470358A2C06778F007A5ECD /* ChatPersonType.swift in Sources */,
 				347035532C06295C007A5ECD /* ContentView.swift in Sources */,
 				347035512C06295C007A5ECD /* ClearMyDoubtsApp.swift in Sources */,
+				3470358F2C067812007A5ECD /* WebSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,13 +506,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClearMyDoubts/Preview Content\"";
+				DEVELOPMENT_TEAM = 242QCCLLKK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the mircrophone to record audio for speech recognition.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert your speech into text.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,13 +538,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClearMyDoubts/Preview Content\"";
+				DEVELOPMENT_TEAM = 242QCCLLKK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the mircrophone to record audio for speech recognition.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert your speech into text.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,6 +674,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3470357A2C0629B8007A5ECD /* XCRemoteSwiftPackageReference "SwiftSpeech" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cay-Zhang/SwiftSpeech";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3470357D2C0636D2007A5ECD /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3470357B2C062B52007A5ECD /* SwiftSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3470357A2C0629B8007A5ECD /* XCRemoteSwiftPackageReference "SwiftSpeech" */;
+			productName = SwiftSpeech;
+		};
+		3470357E2C0636D2007A5ECD /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3470357D2C0636D2007A5ECD /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 347035452C06295C007A5ECD /* Project object */;
 }
